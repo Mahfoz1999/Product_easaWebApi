@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product_easaWebApi", "Product_easaWebApi\Product_easaWebApi.csproj", "{B5804D1A-D369-4599-8D7A-CCF215135EBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{4E4AC456-DF75-4A00-9168-A5C35B361805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product_easa_Database", "Product_easa_Database\Product_easa_Database.csproj", "{EB21C1DB-A110-442D-BC08-759FBE1EE626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product_Easa_Models", "Product_Easa_Models\Product_Easa_Models.csproj", "{5F8EE8BF-295B-40D8-835B-3D52F3BEE25E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commend", "Commend", "{2766FF01-44FE-45EB-8F9A-C37B77C81D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product_Easa_Commends", "Product_Easa_Commends\Product_Easa_Commends.csproj", "{7AAD8887-0347-4439-B827-D5495BC79970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5804D1A-D369-4599-8D7A-CCF215135EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5804D1A-D369-4599-8D7A-CCF215135EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5804D1A-D369-4599-8D7A-CCF215135EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5804D1A-D369-4599-8D7A-CCF215135EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB21C1DB-A110-442D-BC08-759FBE1EE626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB21C1DB-A110-442D-BC08-759FBE1EE626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB21C1DB-A110-442D-BC08-759FBE1EE626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB21C1DB-A110-442D-BC08-759FBE1EE626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8EE8BF-295B-40D8-835B-3D52F3BEE25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8EE8BF-295B-40D8-835B-3D52F3BEE25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8EE8BF-295B-40D8-835B-3D52F3BEE25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8EE8BF-295B-40D8-835B-3D52F3BEE25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAD8887-0347-4439-B827-D5495BC79970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAD8887-0347-4439-B827-D5495BC79970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAD8887-0347-4439-B827-D5495BC79970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAD8887-0347-4439-B827-D5495BC79970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB21C1DB-A110-442D-BC08-759FBE1EE626} = {4E4AC456-DF75-4A00-9168-A5C35B361805}
+		{5F8EE8BF-295B-40D8-835B-3D52F3BEE25E} = {4E4AC456-DF75-4A00-9168-A5C35B361805}
+		{7AAD8887-0347-4439-B827-D5495BC79970} = {2766FF01-44FE-45EB-8F9A-C37B77C81D20}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6A79DD7-F9AF-4273-A1AE-65680537CB27}
+	EndGlobalSection
+EndGlobal
